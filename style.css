@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #0a0a0a; 
+    color: #f4d03f; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c; 
+    text-align: center;
+    padding: 60px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-content h1 {
+    font-family: 'Cinzel', serif; 
+    font-size: 6em;
+    color: #f4d03f; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.header-content p {
+    font-size: 1.8em;
+    font-weight: 300;
+    color: #ddd; 
+}
+
+/* Introduction with Highlight */
+.intro {
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+    background: linear-gradient(135deg, #3a3a3a, #4e4e4e);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.intro .highlight {
+    font-size: 2.5em;
+    color: #f4d03f; 
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+
+
+.verse, .chorus, .outro {
+    margin: 40px auto;
+    padding: 30px;
+    width: 70%;
+    background: #1c1c1c; 
+    border-radius: 15px;
+    border: 2px solid #f4d03f; 
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.verse p {
+    font-size: 1.8em;
+    color: #f1c40f; 
+    line-height: 1.8;
+}
+
+.chorus {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f39c12; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(244, 208, 63, 0.2); 
+    padding: 20px;
+    border-left: 5px solid #f4d03f; 
+}
+
+.chorus p:nth-child(2) {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #ffdf00; 
+}
+
+
+.outro {
+    font-size: 1.7em;
+    color: #f4d03f; 
+    font-style: italic;
+}
+
+.outro .fade-out {
+    animation: fade-out 4s ease-out forwards;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ccc; 
+    margin-top: 50px;
+    padding: 20px;
+}
